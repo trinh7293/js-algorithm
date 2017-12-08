@@ -25,7 +25,6 @@ const heapSort = array => {
     for(let i = Math.floor(array.length/2); i>=0; i -= 1) {
         heapRoot(array, i)
     }
-    console.log('inputafterFirst======',array)
     for(i = array.length - 1; i > 0; i--){ 
         swap(array, i, 0)
         array_length--
